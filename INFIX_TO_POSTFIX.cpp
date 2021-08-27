@@ -17,8 +17,6 @@ int precedence(char ch)
     }
 }
 
-
-
 string infixToPostfix(string s)
 {
     stack<char> optrs;
