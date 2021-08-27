@@ -1,8 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-
-isDuplicate(string str)
+bool isDuplicate(string str)
 {
     stack<char> s;
     for (int i = 0; i < str.length(); i++)
