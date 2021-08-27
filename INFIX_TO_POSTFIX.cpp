@@ -17,25 +17,7 @@ int precedence(char ch)
     }
 }
 
-int operation(int v1, int v2, char optr)
-{
-    if (optr == '+')
-    {
-        return v1 + v2;
-    }
-    else if (optr == '-')
-    {
-        return v1 - v2;
-    }
-    else if (optr == '*')
-    {
-        return v1 * v2;
-    }
-    else
-    {
-        return v1 / v2;
-    }
-}
+
 
 string infixToPostfix(string s)
 {
